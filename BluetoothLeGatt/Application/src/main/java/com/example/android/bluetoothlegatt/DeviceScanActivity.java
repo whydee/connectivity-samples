@@ -157,7 +157,8 @@ public class DeviceScanActivity extends ListActivity {
     }
 
 
-    private BluetoothLeScanner bluetoothLeScanner = BluetoothAdapter.getBluetoothLeScanner();
+//    private BluetoothLeScanner bluetoothLeScanner = BluetoothAdapter.getBluetoothLeScanner();
+
 
     private void scanLeDevice(final boolean enable) {
         if (enable) {

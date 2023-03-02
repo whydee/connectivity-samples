@@ -30,7 +30,7 @@ public class SampleGattAttributes {
     static {
         // Sample Services.
         attributes.put("0000180d-0000-1000-8000-00805f9b34fb", "Heart Rate Service");
-        attributes.put("19b10000-e8f2-537e-4f6c-d104768a1214", "AUTOPILOT La Confiance");
+        attributes.put("19b10000-e8f2-537e-4f6c-d104768a1214", "AUTOPILOT YD");
         // Sample Characteristics.
         attributes.put(HEART_RATE_MEASUREMENT, "Heart Rate Measurement");
         attributes.put(HEADING, "HEADING");
