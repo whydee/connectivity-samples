@@ -156,6 +156,9 @@ public class DeviceScanActivity extends ListActivity {
         startActivity(intent);
     }
 
+
+    private BluetoothLeScanner bluetoothLeScanner = BluetoothAdapter.getBluetoothLeScanner();
+
     private void scanLeDevice(final boolean enable) {
         if (enable) {
             // Stops scanning after a pre-defined scan period.
