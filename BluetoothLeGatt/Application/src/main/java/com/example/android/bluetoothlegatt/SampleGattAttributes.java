@@ -35,6 +35,7 @@ public class SampleGattAttributes {
         attributes.put(HEART_RATE_MEASUREMENT, "Heart Rate Measurement");
         attributes.put(HEADING, "HEADING");
         attributes.put("19b10002-e8f2-537e-4f6c-d104768a1214", "BEARING");
+        attributes.put("19b10006-e8f2-537e-4f6c-d104768a1214", "cmd");
         attributes.put("19b10003-e8f2-537e-4f6c-d104768a1214", "KP");
         attributes.put("19b10004-e8f2-537e-4f6c-d104768a1214", "KD");
         attributes.put("19b10005-e8f2-537e-4f6c-d104768a1214", "DEADBAND");
